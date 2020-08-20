@@ -10,7 +10,8 @@ class berita_sekolah extends CI_Controller {
     public function index()
     {
         $this->load->view('tampilan_web/BERANDA');
-		$this->load->view('Berita/BERITA_SEKOLAH');
+        $this->load->view('Berita/BERITA_SEKOLAH');
+        $this->load->view('Berita/PENGUMUMAN');
 		$this->load->view('tampilan_web/FOOTER');
     }
 }
