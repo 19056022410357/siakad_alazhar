@@ -43,13 +43,13 @@
                     <div class="lesson">
                       <div class="lesson-icon">
                         <a href=""><img src="<?php echo base_url('assets/img/icon1.png'); ?>"></a>
-                         <p><a href="<?= base_url();?>index.php/beranda/LOGIN">SMA</a></p>
+                         <p><a href="<?= base_url();?>index.php/beranda/login">SMA</a></p>
                       </div>
                     </div>
                     <div class="lesson">
                       <div class="lesson-icon">
                         <a href=""><img src="<?php echo base_url('assets/img/icon2.png'); ?>"></a>
-                        <p><a href="">SMP</a></p>
+                        <p><a href="<?= base_url();?>index.php/beranda/login1">SMP</a></p>
                       </div>
                     </div>
                     <div class="lesson">

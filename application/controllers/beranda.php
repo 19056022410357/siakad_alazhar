@@ -26,4 +26,8 @@ class beranda extends CI_Controller {
 	{
 		$this->load->view('Sistem_akademik/LOGIN');
 	}
+	public function login1()
+	{
+		$this->load->view('Sistem_akademik/LOGIN1');
+	}
 }
