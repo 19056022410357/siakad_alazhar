@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class galeri_foto extends CI_Controller {
+class ptk_siswa extends CI_Controller {
     public function __construct()
 	{
 		parent::__construct();
@@ -10,7 +10,13 @@ class galeri_foto extends CI_Controller {
     public function index()
     {
         $this->load->view('tampilan_web/BERANDA');
-		$this->load->view('Galeri/GALERI_FOTO');
+		$this->load->view('Ptk_siswa/DATA_GURU');
+		$this->load->view('tampilan_web/FOOTER');
+    }
+    public function siswa()
+    {
+        $this->load->view('tampilan_web/BERANDA');
+		$this->load->view('Ptk_siswa/DATA_SISWA');
 		$this->load->view('tampilan_web/FOOTER');
     }
 }

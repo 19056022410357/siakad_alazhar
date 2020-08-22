@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="tombol-lengkap">
-                <a href="<?= base_url();?>index.php/informasi/prestasi_lain" class="btn btn-more">Lihat Prestasi Lainnya</a>
+                <a href="<?= base_url();?>index.php/tampilan_web/informasi/prestasi_lain" class="btn btn-more">Lihat Prestasi Lainnya</a>
             </div>
         </div>
     </section>

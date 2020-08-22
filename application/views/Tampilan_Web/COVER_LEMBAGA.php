@@ -43,7 +43,7 @@
                     <div class="lesson">
                       <div class="lesson-icon">
                         <a href=""><img src="<?php echo base_url('assets/img/icon1.png'); ?>"></a>
-                         <p><a href="">SMA</a></p>
+                         <p><a href="<?= base_url();?>index.php/beranda/LOGIN">SMA</a></p>
                       </div>
                     </div>
                     <div class="lesson">

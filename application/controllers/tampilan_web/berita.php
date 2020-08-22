@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class berita_sekolah extends CI_Controller {
+class berita extends CI_Controller {
     public function __construct()
 	{
 		parent::__construct();
@@ -14,4 +14,11 @@ class berita_sekolah extends CI_Controller {
         $this->load->view('Berita/PENGUMUMAN');
 		$this->load->view('tampilan_web/FOOTER');
     }
+    public function pengumuman()
+    {
+        $this->load->view('tampilan_web/BERANDA');
+		$this->load->view('Berita/PENGUMUMAN');
+		$this->load->view('tampilan_web/FOOTER');
+    }
+
 }

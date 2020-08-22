@@ -92,26 +92,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <li class="nav-item dropdown">
                         <a href="<?= base_url();?>index.php/beranda/#sambutan" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> INFORMASI</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="<?= base_url();?>index.php/informasi/profil">PROFIL YAYASAN DAN SEKOLAH</a>
-                            <a class="dropdown-item" href="<?= base_url();?>index.php/informasi/visi_misi">VISI DAN MISI</a>
-                            <a class="dropdown-item" href="<?= base_url();?>index.php/informasi/dasar">DASAR DAN TUJUAN</a>
-                            <a class="dropdown-item" href="<?= base_url();?>index.php/informasi/kegiatan">JADWAL KEGIATAN</a>
+                            <a class="dropdown-item" href="<?= base_url();?>index.php/tampilan_web/informasi">PROFIL YAYASAN DAN SEKOLAH</a>
+                            <a class="dropdown-item" href="<?= base_url();?>index.php/tampilan_web/informasi/visi_misi">VISI DAN MISI</a>
+                            <a class="dropdown-item" href="<?= base_url();?>index.php/tampilan_web/informasi/dasar">DASAR DAN TUJUAN</a>
+                            <a class="dropdown-item" href="<?= base_url();?>index.php/tampilan_web/informasi/kegiatan">JADWAL KEGIATAN</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="<?= base_url();?>index.php/beranda/#berita-terbaru" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> BERITA</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="<?= base_url();?>index.php/berita/berita_sekolah"> BERITA SEKOLAH</a>
-                            <a class="dropdown-item" href="<?= base_url();?>index.php/berita/pengumuman"> PENGUMUMAN</a>
+                            <a class="dropdown-item" href="<?= base_url();?>index.php/tampilan_web/berita"> BERITA SEKOLAH</a>
+                            <a class="dropdown-item" href="<?= base_url();?>index.php/tampilan_web/berita/pengumuman"> PENGUMUMAN</a>
                             <a class="dropdown-item" href="#"> KALENDER PENDIDIKAN</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> SARANA & PRASARANA</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="<?= base_url();?>index.php/sarana/bangunan"> SARANA INFRASTRUKTUR</a>
-                            <a class="dropdown-item" href="<?= base_url();?>index.php/sarana/sarana_ruang"> SARANA RUANG</a>
-                            <a class="dropdown-item" href="<?= base_url();?>index.php/sarana/sarana_alat"> SARANA ALAT PEMBELAJARAN</a>
+                            <a class="dropdown-item" href="<?= base_url();?>index.php/tampilan_web/sarana"> SARANA INFRASTRUKTUR</a>
+                            <a class="dropdown-item" href="<?= base_url();?>index.php/tampilan_web/sarana/sarana_ruang"> SARANA RUANG</a>
+                            <a class="dropdown-item" href="<?= base_url();?>index.php/tampilan_web/sarana/sarana_alat"> SARANA ALAT PEMBELAJARAN</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -129,13 +129,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <li class="nav-item dropdown">
                         <a href="<?= base_url();?>index.php/beranda/#galeri-document" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"> GALERI</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="<?= base_url();?>index.php/galeri/galeri_foto"> GALERI FOTO</a>
-                            <a class="dropdown-item" href="<?= base_url();?>index.php/galeri/galeri_vidio"> GALERI VIDIO</a>
+                            <a class="dropdown-item" href="<?= base_url();?>index.php/tampilan_web/galeri"> GALERI FOTO</a>
+                            <a class="dropdown-item" href="<?= base_url();?>index.php/tampilan_web/galeri/galeri_vidio"> GALERI VIDIO</a>
                             <a class="dropdown-item" href="#"> GALERI PENDIDIKAN</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url();?>index.php/informasi/kontak"> KONTAK</a>
+                        <a class="nav-link" href="<?= base_url();?>index.php/tampilan_web/informasi/kontak"> KONTAK</a>
                     </li>
                 </ul>
             </div>

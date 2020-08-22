@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="tombol-lengkap">
-                <a href="<?= base_url();?>index.php/ptk_siswa/data_guru" class="btn btn-more">Lihat semua guru</a>
+                <a href="<?= base_url();?>index.php/tampilan_web/ptk_siswa" class="btn btn-more">Lihat semua guru</a>
             </div>
         </div>
     </section>
